@@ -1,0 +1,28 @@
+
+# Virtual environments
+.venv-torch/
+.venv/
+venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Dataset and external images
+/data/
+/external_images/
+
+# Original dataset archive
+/archive.zip
+
+# Local environment instructions
+/pt_venv.txt
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db

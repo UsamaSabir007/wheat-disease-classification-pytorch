@@ -1,0 +1,33 @@
+WheatDiseaseCNN - Evaluation Results
+=============================================
+
+Checkpoint: best_model_cleaned_384_jitter_epochs30.pth
+Epoch: 30
+Image size: (384, 384)
+Test images: 793
+Saved validation loss: 0.3294
+Saved validation accuracy: 88.76%
+Test accuracy: 90.16%
+
+Classification Report:
+
+               precision    recall  f1-score   support
+
+   Black Rust     0.8177    0.8674    0.8418       181
+   Brown Rust     0.9022    0.8177    0.8579       203
+Healthy Wheat     0.9156    0.9717    0.9428       212
+  Yellow Rust     0.9688    0.9442    0.9563       197
+
+     accuracy                         0.9016       793
+    macro avg     0.9010    0.9002    0.8997       793
+ weighted avg     0.9030    0.9016    0.9014       793
+
+Confusion Matrix:
+[[157  15   8   1]
+ [ 28 166   6   3]
+ [  2   2 206   2]
+ [  5   1   5 186]]
+
+Rows = actual classes
+Columns = predicted classes
+Class order: ['Black Rust', 'Brown Rust', 'Healthy Wheat', 'Yellow Rust']
